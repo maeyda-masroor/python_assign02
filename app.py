@@ -44,7 +44,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
 conversion_factors = {
     "Length": {
         "Meter": 1,
@@ -66,6 +65,56 @@ conversion_factors = {
         "Celsius": "celsius",
         "Fahrenheit": "fahrenheit",
         "Kelvin": "kelvin"
+    },
+    "Area": {
+        "Square Meter": 1,
+        "Square Kilometer": 0.000001,
+        "Square Centimeter": 10000,
+        "Square Millimeter": 1000000,
+        "Hectare": 0.0001,
+        "Acre": 0.000247105
+    },
+    "Data Transfer Rate": {
+        "Bit per second": 1,
+        "Kilobit per second": 0.001,
+        "Megabit per second": 0.000001,
+        "Gigabit per second": 0.000000001,
+        "Terabit per second": 0.000000000001
+    },
+    "Digital Storage": {
+        "Byte": 1,
+        "Kilobyte": 0.001,
+        "Megabyte": 0.000001,
+        "Gigabyte": 0.000000001,
+        "Terabyte": 0.000000000001
+    },
+    "Energy": {
+        "Joule": 1,
+        "Kilojoule": 0.001,
+        "Calorie": 0.239006,
+        "Kilocalorie": 0.000239006,
+        "Watt-hour": 0.000277778
+    },
+    "Frequency": {
+        "Hertz": 1,
+        "Kilohertz": 0.001,
+        "Megahertz": 0.000001,
+        "Gigahertz": 0.000000001
+    },
+    "Fuel Economy": {
+        "Kilometer per liter": 1,
+        "Mile per gallon": 2.35215
+    },
+    "Speed": {
+        "Meter per second": 1,
+        "Kilometer per hour": 3.6,
+        "Mile per hour": 2.23694,
+        "Knot": 1.94384
+    },
+    "Plane Angle": {
+        "Degree": 1,
+        "Radian": 0.0174533,
+        "Grad": 1.11111
     }
 }
 
